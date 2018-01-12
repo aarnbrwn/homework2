@@ -7,6 +7,7 @@ NAVBAR
 	margin: 0;
   padding: 0;
   cursor:default;
+  /* box-sizing: border-box; */
 }
 
 @font-face {
@@ -59,12 +60,13 @@ a {
 }
 
 .wrapBody {
-  position: relative;
-  max-width: 950px;
-  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  margin: 10% auto;
   margin-top: 50px;
+  /* border:2px solid green; */
   /* background: radial-gradient(rgb(240,240,255), rgb(245,245,255), rgb(255,255,255)); */
-  padding: 1% 1%;
+  /* padding: 1% 1%; */
 }
 
 
@@ -76,12 +78,13 @@ HERO IMAGE
   background-image: url(img/map.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  border: 1px solid white;
   width: 100%;
+  height: 100%;
   max-width: 950px;
   margin: 0 auto;
-  position: absolute;
-  top: 10%;
-  /* position: relative; */
+  position: relative;
+  /* top: 10%; */
 }
 
 /***************
@@ -92,6 +95,16 @@ h1 {
   color: red;
 }
 
+p {
+  margin: 10px;
+}
+
+/* .exposed {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 300px;
+} */
+
 .hero-text {
   text-align: center;
   /* position: absolute;
@@ -99,7 +112,7 @@ h1 {
   left: 20%; */
   margin: 15% auto;
   /* padding: 10%; */
-  width: 10em;
+  width: 50%;
   font-weight: bold;
 }
 
