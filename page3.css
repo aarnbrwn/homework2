@@ -1,5 +1,5 @@
 * {
-  border: 1px red solid;
+  /*border: 1px red solid;*/
   font-family: fontMain;
 	margin: 0 0;
   cursor:default;
@@ -8,6 +8,14 @@
 @font-face {
     font-family: fontMain;
     src: url("fonts/Aileron-Light.ttf");
+}
+
+@media all and (max-width: 640px) {
+  .menu {
+    font-size: 100% !important;
+    padding: 3px 2% !important;
+    margin: 3px 2% !important;
+  }
 }
 
 body {
@@ -22,17 +30,17 @@ body {
   cursor:pointer;
 }
 
-/*.menuHome {
+/* .menuHome {
   text-decoration: underline gray;
-}*/
+} */
 
 .menuInfo {
   text-decoration: underline gray;
 }
 
-/*.menuContact {
+/* .menuContact {
   text-decoration: underline gray;
-}*/
+} */
 
 a {
   color: inherit;
@@ -60,4 +68,23 @@ a {
   margin-top: 50px;
   background: radial-gradient(rgb(240,240,255), rgb(245,245,255), rgb(255,255,255));
   padding: 1% 1%;
+}
+
+.txtTitle {
+  font-weight: bold;
+  margin: 10px 10px;
+  margin-left: 5%;
+}
+
+.txtBox {
+  margin: 10px 10%;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.txtSource {
+  margin: 10px 0px;
+  margin-left: 1%;
+  margin-bottom: 20px;
+  font-size: 80%;
 }

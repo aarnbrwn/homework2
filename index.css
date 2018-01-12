@@ -1,0 +1,119 @@
+/**************
+NAVBAR
+***************/
+* {
+  /* border: 1px red solid; */
+  font-family: fontMain;
+	margin: 0;
+  padding: 0;
+  cursor:default;
+}
+
+@font-face {
+    font-family: fontMain;
+    src: url("fonts/Aileron-Light.ttf");
+}
+
+body {
+  font-size: 16pt;
+  height: 100vh;
+}
+
+.menu {
+  display: inline-block;
+  font-size: 100%;
+	margin: 5px 5%;
+  padding: 5px 3%;
+  cursor:pointer;
+}
+
+.menuHome {
+  text-decoration: underline gray;
+}
+
+/* .menuInfo {
+  text-decoration: underline gray;
+} */
+
+/*.menuContact {
+  text-decoration: underline gray;
+}*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor:pointer;
+}
+
+.navBar {
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height:50;
+  margin:auto;
+  max-width: 950px;
+  z-index: 1000;
+  text-align: center;
+  background-color: white;
+}
+
+.wrapBody {
+  position: relative;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* background: radial-gradient(rgb(240,240,255), rgb(245,245,255), rgb(255,255,255)); */
+  padding: 1% 1%;
+}
+
+
+/***************
+HERO IMAGE
+****************/
+
+.hero-img {
+  background-image: url(img/map.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  position: absolute;
+  top: 10%;
+  /* position: relative; */
+}
+
+/***************
+HERO TEXT
+****************/
+
+h1 {
+  color: red;
+}
+
+.hero-text {
+  text-align: center;
+  /* position: absolute;
+  top: 30%;
+  left: 20%; */
+  margin: 15% auto;
+  /* padding: 10%; */
+  width: 10em;
+  font-weight: bold;
+}
+
+
+/* @media (max-width: 494px) {
+  .hero-img {
+    margin-top: 10%
+  }
+} */
+
+@media all and (max-width: 640px) {
+ .menu {
+   font-size: 100% !important;
+   padding: 3px 2% !important;
+   margin: 3px 2% !important;
+ }
+}
