@@ -104,8 +104,16 @@ h1 {
 }
 
 
-@media (max-width: 494px) {
+/* @media (max-width: 494px) {
   .hero-img {
     margin-top: 10%
   }
+} */
+
+@media all and (max-width: 640px) {
+ .menu {
+   font-size: 100% !important;
+   padding: 3px 2% !important;
+   margin: 3px 2% !important;
+ }
 }
