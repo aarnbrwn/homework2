@@ -10,6 +10,14 @@
     src: url("fonts/Aileron-Light.ttf");
 }
 
+@media all and (max-width: 640px) {
+  .menu {
+    font-size: 100% !important;
+    padding: 3px 2% !important;
+    margin: 3px 2% !important;
+  }
+}
+
 body {
   font-size: 16pt;
 }
