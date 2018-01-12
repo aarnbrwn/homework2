@@ -22,17 +22,17 @@ body {
   cursor:pointer;
 }
 
-/*.menuHome {
+/* .menuHome {
   text-decoration: underline gray;
-}*/
+} */
 
 .menuInfo {
   text-decoration: underline gray;
 }
 
-/*.menuContact {
+/* .menuContact {
   text-decoration: underline gray;
-}*/
+} */
 
 a {
   color: inherit;
