@@ -102,8 +102,11 @@ p {
 /* .exposed {
   width: 100%;
   text-align: center;
-  margin-bottom: 300px;
 } */
+
+.items {
+  text-align: center;
+}
 
 .hero-text {
   text-align: center;
