@@ -54,6 +54,7 @@ a {
   height:50;
   margin:auto;
   max-width: 950px;
+  min-width: 350px;
   z-index: 1000;
   text-align: center;
   background-color: white;
